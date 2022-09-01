@@ -1,0 +1,44 @@
+.drexel-yellow {
+    background-color: #FFC600;
+}
+
+.drexel-blue {
+    background-color: #07294D
+}
+
+.drexel-light-blue {
+    background-color: #6CACE4
+}
+
+.drexel-font-yellow {
+   color: #FFC600;
+}
+
+.drexel-green {
+    background-color: #B7BF10;
+}
+
+.accordion-bc {
+    background-color: red 
+}
+
+.drexel-gray {
+    background-color: #E1E1E0;
+}
+
+.drexel-font-blue {
+    color: #07294D
+}
+
+.drexel-font-light-blue {
+    color: #6CACE4
+}
+
+.accordion-button.collapsed {
+    background: #E1E1E0;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    border-color: none !important;
+}
