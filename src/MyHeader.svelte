@@ -23,7 +23,7 @@
 
 
         <Row class="justify-content-center">
-        <Card class="mb-5" style="max-width:775px;">
+        <Card class="mb-5" style="max-width:800px;">
             <Row class="">
                 <h1 class="jumbotron-heading display-6 strong">Brian S. Mitchell, Ph.D.</h1>
             </Row>
@@ -40,8 +40,8 @@
                         </CardText>
                         <CardText class="lead lh-sm">
                             <small>
-                            Welcome to my homepage.  I am a member of the CS Department and
-                            teach a number of Software Engineeing and
+                            Welcome to my homepage.  I am a member of the Computer Science 
+                            Department and teach a number of Software Engineeing and
                             Systems classes.  My research activity and interests are at the 
                             intersection of Software Engineering, Software Architecture and 
                             Cloud Native Computing.
