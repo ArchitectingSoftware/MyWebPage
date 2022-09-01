@@ -54,7 +54,7 @@
                 <p>
                     <span><Fa icon={faBuilding}/></span> Office: 1134 |   
                           <br class="d-block d-sm-none" />
-                    <span><Fa icon={faEnvelope}/></span> bmitchell@cs.drexel.edu |   
+                    <span><Fa icon={faEnvelope}/></span> bmitchell@drexel.edu |   
                           <br class="d-block d-sm-none" />
                     <span><Fa icon={faTwitter}/></span> 
                             <a href="https://twitter.com/DrBrianMitchell">@DrBrianMitchell</a> |
