@@ -16,8 +16,8 @@
   </style>
 
   <Container fluid class="p-0">
-    <!-- <section class=" text-center bkimage"> -->
-    <section class=" text-center"> 
+    <section class=" text-center bkimage">
+    <!-- <section class=" text-center"> -->
         <Row class="mt-5"></Row>
         <Row class="mt-5"></Row>
 
