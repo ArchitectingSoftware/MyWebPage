@@ -31,7 +31,7 @@
                         opportunity to lead and work with thousands of talented engineers across
                         the company.  Collectively we helped to create a culture where we could 
                         use disruptive technologies to differentiate our services from competitors.
-                        For example, we agressively adopted the public cloud, built compentencies 
+                        For example, we aggressively adopted the public cloud, built competencies 
                         in developing solutions using complex cloud native architectures, and 
                         starting contributing to open source and patenting our own technology 
                         inventions.
@@ -39,7 +39,7 @@
                     <p>
                         In addition to jobs that involve talking and pushing buttons I am a proficient
                         Carpenter, IoT Maker, and sometimes even an appliance repair man.  I have built
-                        many decks, lots of finish carpentry, built furnature, and significant home
+                        many decks, lots of finish carpentry, built furniture, and significant home
                         remodels.   My wife is an accomplished musician and my son has many academic,
                         musical, and sports talents.
                     </p>

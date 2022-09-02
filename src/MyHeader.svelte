@@ -18,30 +18,29 @@
   <Container fluid class="p-0">
     <section class=" text-center bkimage">
     <!-- <section class=" text-center"> -->
-        <Row class="mt-5"></Row>
-        <Row class="mt-5"></Row>
-
+        <Row class="pt-5"></Row>
 
         <Row class="justify-content-center">
-        <Card class="mb-5" style="max-width:800px;">
+        <Card class="mb-5" style="max-width:750px;">
             <Row class="">
                 <h1 class="jumbotron-heading display-6 strong">Brian S. Mitchell, Ph.D.</h1>
             </Row>
-            <Row >
-                <Col class="col-md-4 col-sm-6 g-2 align-self-center">
+            <Row>
+                <Col class="col-12 col-sm-4 g-2 align-self-center">
                     <Image  src={BRIAN} class="img-fluid rounded-start" alt="Dr. Brian Mitchell" />
                     
                 </Col>
-                <Col class="col-md-8 align-self-center">
+                <Col class="col-12 col-sm-8">
                     <CardBody>
-                        <CardText class="g-0">
+                        <CardText class="g-0 align-self-center">
                             <Image src={CCILogo} class="img-fluid d-none d-lg-block d-md-block" alt="CCI Logo" />
-                            <h4 class="d-none d-sm-block d-md-none"><code>$ whoami</code></h4>
+                            <h4 class="d-md-none"><code>$ whoami</code></h4>
                         </CardText>
-                        <CardText class="lead lh-sm">
+                        <CardText class="text-align-left lead lh-sm">
                             <small>
-                            Welcome to my homepage.  I am a member of the Computer Science 
-                            Department and teach a number of Software Engineeing and
+                            Welcome to my homepage.  I am a member of the Drexel University
+                            Computer Science 
+                            Department and teach a number of Software Engineering and
                             Systems classes.  My research activity and interests are at the 
                             intersection of Software Engineering, Software Architecture and 
                             Cloud Native Computing.

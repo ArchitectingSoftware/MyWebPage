@@ -14,6 +14,11 @@
   </script>
 
   <style>
+    .accordion-button.research:after {
+        order: -1; 
+        margin-left: 0; 
+        margin-right:0.5em;
+    }
     
   </style>
   
@@ -43,28 +48,16 @@
             <Row>
                 <h4>Journal and Research Publications</h4>
             </Row>
-
-            <!--
-            {#each PublicationsList as pub, index}
-            <Row>
-                <Col>
-                    <p>
-                    {index +1}. <a href="{pub.link}">"{pub.title}"</a> by {pub.cite}
-                    </p>
-                </Col>
-            </Row>
-            {/each}
-        -->
             
             <Row>
                 <Col>
                     <div>
-                        Please click on the down arrow icon to the right to view 
+                        Please click on the down arrow icon to the left to view 
                         the papers abstract
                     </div>
                     <Accordion>
                     {#each PublicationsList as pub, index}
-                        <AccordionItem>
+                        <AccordionItem class="research">
                             <div  slot="header" >
                                 <a href="{pub.link}">"{pub.title}"</a> by {pub.cite}
                             </div>

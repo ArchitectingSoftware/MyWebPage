@@ -1,14 +1,6 @@
 <script lang="ts">
     import { Container, Image, Row, Col, Table, CardBody, CardTitle, CardText } from 'sveltestrap';
-    import Fa from 'svelte-fa'
-    import {faBuilding, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-    import {faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
-
-    import CCILogo from './assets/DrexelCCISmall.png'
-    import BSM from './assets/bmitchellHeader.png'
-    import BRIAN from './assets/BrianMitchell.jpg'
-    import MITCHELL_FAMILY from './assets/MitchellFamily.jpg'
-import Counter from './lib/Counter.svelte';
+    import { CourseList } from './lib/courses';
   </script>
   
   <Container fluid  class="drexel-light-blue py-5" id="teaching" >
@@ -33,53 +25,18 @@ import Counter from './lib/Counter.svelte';
                       <tr>
                         <th>Course Number</th>
                         <th>Course Title</th>
+                        <th>Course Level</th>
                       </tr>
                     </thead>
                     <tbody>
+                      {#each CourseList as course, index}
+                            <tr>
+                                <th scope="row">{course.id}</th>
+                                <td>{course.title}</td>
+                                <td>{course.level}</td>
+                            </tr>
+                        {/each}
                       <tr>
-                        <th scope="row">SE575</th>
-                        <td>Software Design</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CS576</th>
-                        <td>Dependable Software Systems</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">SE577</th>
-                        <td>Software Architecture</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CS680</th>
-                        <td>Foundations of Computer Science</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CS720</th>
-                        <td>Operating Systems</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CS721</th>
-                        <td>Distributed Systems</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">SE451</th>
-                        <td>Software Engineering</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CS281</th>
-                        <td>Systems Architecture I</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CS282</th>
-                        <td>Systems Architecture II</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CS350</th>
-                        <td>Object Oriented Programming</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CS470</th>
-                        <td>Computer Networks</td>
-                      </tr>
                     </tbody>
                   </Table>
             </Row>

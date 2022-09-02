@@ -28,7 +28,7 @@
   </style>
   
 
-  <Navbar class="fixed-top drexel-blue"   dark expand="md">
+  <Navbar class="sticky-top drexel-blue"   dark expand="md">
     <NavbarBrand href="#" ><code style="color: #FFC600">/* My Address Space */</code></NavbarBrand>
     <NavbarToggler on:click={() => (isOpen = !isOpen)} />
     <Collapse {isOpen} navbar expand="md" style="border-color: #FFC600" on:update={handleUpdate}>
@@ -40,8 +40,10 @@
           <NavLink href="#research" style="color: #FFC600">RESEARCH</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink 
-          href="#me" style="color: #FFC600">ABOUT</NavLink>
+          <NavLink href="#talks" style="color: #FFC600">TALKS</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#me" style="color: #FFC600">ABOUT</NavLink>
         </NavItem>
       </Nav>
     </Collapse>

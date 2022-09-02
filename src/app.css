@@ -18,6 +18,14 @@
     background-color: #B7BF10;
 }
 
+.drexel-green-2 {
+    background-color: #949300;
+}
+
+.drexel-blue-2 {
+    background-color: #006699;
+}
+
 .accordion-bc {
     background-color: red 
 }
@@ -30,9 +38,16 @@
     color: #07294D
 }
 
+.drexel-font-white {
+    color: white
+}
+
 .drexel-font-light-blue {
     color: #6CACE4
 }
+
+
+
 
 .accordion-button.collapsed {
     background: #E1E1E0;
@@ -41,4 +56,10 @@
 .accordion-button:focus {
     box-shadow: none !important;
     border-color: none !important;
+}
+
+.accordion-button::after {
+    order: -1; 
+    margin-left: 0; 
+    margin-right:0.5em;
 }
