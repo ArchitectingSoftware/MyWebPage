@@ -3,8 +3,9 @@ export const PublicationsList = [
     {
         id:1,
         title:"Cloud Native Software Engineering",
-        cite:"B. S. Mitchell, Drexel University - College of Computing and Informatics. Preprint at https://www.cs.drexel.edu/~bmitchell. January 2023.",
-        link:"/pubs/CNSE-Preprint",
+        cite:"B. S. Mitchell, Drexel University - College of Computing and Informatics. Preprint at \
+        https://www.cs.drexel.edu/~bmitchell/pubs/CNSE-Preprint.pdf. January 2023.",
+        link:"./pubs/CNSE-Preprint.pdf",
         slides: null,
         abstract:"Cloud compute adoption has been growing since its inception in the early 2000's \
                     with estimates that the size of this market in terms of worldwide spend will increase \
@@ -24,7 +25,7 @@ export const PublicationsList = [
         title:"On the evaluation of the Bunch search-based software modularization algorithm",
         cite:"B. S. Mitchell, S. Mancoridis, In the Springer-Verlag Journal of Soft Computing, \
                 Volume 12, No 1, 2008, pp. 77-93.",
-        link:"/pubs/JSC07.pdf",
+        link:"./pubs/JSC07.pdf",
         slides: null,
         abstract:"The ﬁrst part of this paper describes an automatic reverse engineering process to infer \
                     subsystem abstractions that are useful for a variety of software maintenance activities. \
@@ -45,7 +46,7 @@ export const PublicationsList = [
         title: "On the Automatic Modularization of Software Systems Using the Bunch Tool",
         cite:"B. S. Mitchell, S. Mancoridis In the IEEE Transactions on Software Engineering, Volume 32, \
                 Number 3, 2006, pp. 193-208.",
-        link:"/pubs/TSE-0035-0304.pdf",
+        link:"./pubs/TSE-0035-0304.pdf",
         slides: null,
         abstract:"Since modern software systems are large and complex, appropriate abstractions of their \
                     structure are needed to make them more understandable and, thus, easier to maintain. \
@@ -65,7 +66,7 @@ export const PublicationsList = [
         title:"Clustering Software Systems to Identify Subsystem Structures",
         cite:"B. S. Mitchell, Technical Report, Department of Mathematics and Computer Science, Drexel \
                 University, USA.",
-        link:"/pubs/drexel06.pdf",
+        link:"./pubs/drexel06.pdf",
         slides: null,
         abstract:"As the size of software systems continues to grow, understanding the structure of these systems \
                     gets harder. This coupled with associated problems such as of lack of current documentation, and \
@@ -86,7 +87,7 @@ export const PublicationsList = [
         title:"Using Interconnection Style Rules to Infer Software Architecture Relations",
         cite:"B. S. Mitchell, S. Mancoridis and M. Traverso. In the Proceedings of the Genetic and Evolutionary \
              Computation Conference (GECCO'04), Seattle, Washington, June, 2004.",
-        link: "/pubs/gecco04.pdf",
+        link: "./pubs/gecco04.pdf",
         slides: null,
         abstract: "Software design techniques emphasize the use of abstractions to help developers deal \
                     with the complexity of constructing large and complex systems. These abstractions can \
@@ -107,7 +108,7 @@ export const PublicationsList = [
         title:"Reformulating Software Engineering as a Search Problem",
         cite: "J. Clark, J. J. Dolado, M. Harman, R. Hierons, B. Jones, M. Lumkin, B. S. Mitchell, S. Mancoridis, \
                K. Rees, M. Roper, M. Shepperd, In the Journal of IEE Proceedings - Software , 150(3): 161-175, 2003.",
-        link: "/pubs/ieesw.pdf",
+        link: "./pubs/ieesw.pdf",
         slides: null,
         abstract: "Metaheuristic  techniques such as genetic algorithms, simulated annealing and tabu search have \
                     found wide application in most areas of engineering.  These techniques have also been applied in \
@@ -140,12 +141,12 @@ export const PublicationsList = [
         title:"A Heuristic Search Approach to Solving the Software Clustering Problem",
         cite: "B. S. Mitchell. In the IEEE Proceedings of the 2003 International Conference on Software Maintenance \
                 (ICSM'03), Amsterdam, Netherlands, September, 2003.",
-        link: "/pubs/icsm03.pdf",
+        link: "./pubs/icsm03.pdf",
         slides: [
             {
                 type: "PPT",
                 description: "Powerpoint - PPT",
-                link: "/pubs/icsm03Talk.ppt"
+                link: "./pubs/icsm03Talk.ppt"
             },
         ],
         abstract: "This paper provides an overview of the author’s Ph.D. thesis. The primary contribution of this \
@@ -163,7 +164,7 @@ export const PublicationsList = [
         title:"Modeling the Search Landscape of Metaheuristic Software Clustering Algorithms",
         cite:"B. S. Mitchell, S. Mancoridis. In the 7th Annual Genetic and Evolutionary Computing Conference \
                 (GECCO'03) , Chicago, USA, July 2003. (BEST PAPER AWARD)",
-        link:"/pubs/gecco03.pdf",
+        link:"./pubs/gecco03.pdf",
         slides: null,
         abstract:"Software clustering techniques are useful for extracting architectural information about a \
                    system directly from its source code structure. This paper starts by examining the Bunch \
@@ -185,7 +186,7 @@ export const PublicationsList = [
         cite:"B. S. Mitchell, S. Mancoridis, M. Traverso. In the ACM Proceedings of the 2002 International \
                  Conference on Software Engineering and Knowledge Engineering (SEKE'02), Ischia, Italy, July, \
                  2002. pp. 431-438.",
-        link:"/pubs/seke02.pdf",
+        link:"./pubs/seke02.pdf",
         slides: null,
         abstract:"In this paper we describe a two step process for reverse engineering the software architecture \
                     of a system directly from its source code. The ﬁrst step involves clustering the modules from the \
@@ -201,12 +202,12 @@ export const PublicationsList = [
         title:"Using Heuristic Search Techniques to Extract Design Abstractions from Source Code",
         cite:"B. S. Mitchell, S. Mancoridis. In the Proceedings of the Genetic and Evolutionary Computation \
               Conference (GECCO'02), New York, NY, July, 2002",
-        link:"/pubs/gecco02.pdf",
+        link:"./pubs/gecco02.pdf",
         slides: [
             {
                 type: "PPT",
                 description: "Powerpoint - PPT",
-                link: "/pubs/gecco02Talk.ppt"
+                link: "./pubs/gecco02Talk.ppt"
             }
         ],
         abstract:"As modern software systems are large and complex, appropriate abstractions of their structure are \
@@ -220,17 +221,17 @@ export const PublicationsList = [
         title:"Comparing the Decompositions Produced by Software Clustering Algorithms using Similarity Measurements",
         cite: "B. S. Mitchell, S. Mancoridis. In the IEEE Proceedings of the 2001 International Conference on Software \
                     Maintenance (ICSM'01), Florence, Italy, November, 2001.",
-        link: "/pubs/icsm01.pdf",
+        link: "./pubs/icsm01.pdf",
         slides: [
             {
                 type: "PPT",
                 description: "Powerpoint - PPT",
-                link: "/pubs/icsm01Pres.ppt"
+                link: "./pubs/icsm01Pres.ppt"
             },
             {
                 type: "PDF",
                 description: "Acrobat - PDF",
-                link: "/pubs/icsm01Pres.pdf"
+                link: "./pubs/icsm01Pres.pdf"
             }
         ],
         abstract: "Decomposing source code components and relations into subsystem clusters is an active area of \
@@ -252,7 +253,7 @@ export const PublicationsList = [
         title:"CRAFT: A Framework for Evaluating Software Clustering Results in the Absence of Benchmark Decompositions",
         cite: "B. S. Mitchell, S. Mancoridis. In the IEEE Proceedings of the 2001 Working Conference in Reverse \
                 Engineering (WCRE'01), Stuttgart, Germany, October, 2001. RECEIVED BEST PAPER AWARD",
-        link:"/pubs/wcre01.pdf",
+        link:"./pubs/wcre01.pdf",
         slides: null,
         abstract:"Software clustering algorithms are used to create high-level views of a system's structure \
                    using source code-level artifacts. Software clustering is an active area of research that has \
@@ -271,17 +272,17 @@ export const PublicationsList = [
         title:"An Architecture for Distributing the Computation of Software Clustering Algorithms",
         cite:"B. S. Mitchell, M. Traverso, S. Mancoridis. In the IEEE/IFIP Proceedings of the 2001 Working \
                 Conference on Software Architecture (WICSA'01), Amsterdam, Netherlands, August, 2001. ",
-        link:"/pubs/wicsa2001.pdf",
+        link:"./pubs/wicsa2001.pdf",
         slides: [
             {
                 type: "PPT",
                 description: "Powerpoint - PPT",
-                link: "/pubs/wicsa01pres.ppt"
+                link: "./pubs/wicsa01pres.ppt"
             },
             {
                 type: "PDF",
                 description: "Acrobat - PDF",
-                link: "/pubs/wicsa01pres.pdf"
+                link: "./pubs/wicsa01pres.pdf"
             }
         ],
         abstract:"Collections of general purpose networked workstations offer processing capability that \
@@ -303,7 +304,7 @@ export const PublicationsList = [
         title:"Bunch: A Clustering Tool for the Recovery and Maintenance of Software System Structures",
         cite:"S. Mancoridis, B.S.Mitchell, Y.Chen, E.R.Gansner. In the IEEE Proceedings of the 1999 \
                 International Conference on Software Maintenance (ICSM'99), Oxford, UK, August, 1999.",
-        link:"/pubs/icsm99.pdf",
+        link:"./pubs/icsm99.pdf",
         slides: null,
         abstract:"Software systems are typically modified in order to extend or change their functionality, \
                     improve their performance, port them to different platforms, and so on. For developers, \
@@ -327,7 +328,7 @@ export const PublicationsList = [
         title:"Automatic Clustering of Software Systems using a Genetic Algorigthm",
         cite:"D. Doval, S. Mancoridis, B.S.Mitchell. In the IEEE Proceedings of the 1999 International \
                 Conference on Software Tools and Engineering Practice (STEP'99), Pittsburgh, PA, August, 1999.",
-        link:"/pubs/step99.pdf",
+        link:"./pubs/step99.pdf",
         slides: null,
         abstract:"Large software systems tend to have a rich and complex structure. Designers typically \
                     depict the structure of software systems as one or more directed graphs. For example, \
@@ -349,7 +350,7 @@ export const PublicationsList = [
         title:"Using Automatic Clustering to Produce High-Level System Organizations of Source Code",
         cite:"S. Mancoridis, B.S.Mitchell, C.Rorres, Y.Chen, E.R.Gansner. In the IEEE Proceedings of the \
                  1998 International Workshop on Program Understanding (IWPC'98), Ischia, Italy, June, 1998.",
-        link:"/pubs/iwpc98.pdf",
+        link:"./pubs/iwpc98.pdf",
         slides: null,
         abstract:"This paper describes a collection of algorithms that we developed and implemented to\
                     facilitate the automatic recovery of the modular structure of a software system from \
