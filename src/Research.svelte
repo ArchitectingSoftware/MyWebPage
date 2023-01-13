@@ -58,8 +58,8 @@
                     <Accordion>
                     {#each PublicationsList as pub, index}
                         <AccordionItem class="research">
-                            <div  slot="header" >
-                                <a href="{pub.link}">"{pub.title}"</a> by {pub.cite}
+                            <div  slot="header"  >
+                               <p> <a href="{pub.link}">"{pub.title}"</a> by {pub.cite}
                             </div>
                             {pub.abstract}
                         </AccordionItem>
