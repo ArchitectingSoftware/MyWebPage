@@ -4,8 +4,8 @@ export const PublicationsList = [
         id:1,
         title:"Cloud Native Software Engineering",
         cite:"B. S. Mitchell, Drexel University - College of Computing and Informatics. Preprint at \
-        https://www.cs.drexel.edu/~bmitchell/pubs/CNSE-Preprint.pdf. January 2023.",
-        link:"./pubs/CNSE-Preprint.pdf",
+        https://www.cs.drexel.edu/~bmitchell/pubs/CNSE-Arxiv-Preprint-Mitchell.pdf. January 2023.",
+        link:"./pubs/CNSE-Arxiv-Preprint-Mitchell.pdf",
         slides: null,
         abstract:"Cloud compute adoption has been growing since its inception in the early 2000's \
                     with estimates that the size of this market in terms of worldwide spend will increase \

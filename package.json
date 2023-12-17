@@ -23,6 +23,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "bootstrap": "^5.2.0",
+    "flowbite-svelte": "^0.44.20",
     "gh-pages": "^4.0.0",
     "svelte-fa": "^3.0.3",
     "svelte-scrolling": "^1.2.2",

@@ -10,6 +10,11 @@ export const CourseList = [
         level:  "Graduate"
     },
     {
+        id:     "CS544",
+        title:  "Computer Networks",
+        level:  "Graduate"
+    },
+    {
         id:     "SE577",
         title:  "Software Architecture",
         level:  "Graduate"
@@ -17,6 +22,11 @@ export const CourseList = [
     {
         id:     "CS680",
         title:  "Foundations of Computer Science",
+        level:  "Graduate"
+    },
+    {
+        id:     "CS-T680",
+        title:  "Cloud Native Software Engineering",
         level:  "Graduate"
     },
     {
@@ -50,7 +60,7 @@ export const CourseList = [
         level:  "Undergraduate"
     },
     {
-        id:     "CS470",
+        id:     "CS472",
         title:  "Computer Networks",
         level:  "Undergraduate"
     },
